@@ -3,6 +3,13 @@
 [[http://melpa.org/#/material-theme][file:http://melpa.org/packages/material-theme-badge.svg]]
 [[http://stable.melpa.org/#/material-theme][file:http://stable.melpa.org/packages/material-theme-badge.svg]]
 
+** EXPLAINED by Forker Yefeiyu
+I modified the background color from `#263238` to `#061218`.
+The origin yellow color is `#fff590d`, which was modified to `#ffff33`. 
+Therefore, the difference between it and white is more significant.
+The `EIN` background color from `#1e2930` to `0e1920`.
+All of this is only an adjustment in depth and light, and overall does not affect the beauty of the original theme.
+
 Emacs Theme based on the colors proposed by the [[http://www.google.com/design/spec/style/color.html#color-color-palette][Google Material Design]].
 
 ** Light and Dark Theme 
