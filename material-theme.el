@@ -49,7 +49,7 @@
        (256color  (eq (display-color-cells (selected-frame)) 256))
        (truecolor (eq (display-color-cells (selected-frame)) 16777216))
 
-       (background (if (or window-system truecolor) "#263238" "#262626")) ;; sidebar-container
+       (background (if (or window-system truecolor) "#061218" "#262626")) ;; sidebar-container
        (current-line (if (or window-system truecolor)  "#37474f" "#3a3a3a")) ;; tree-row
        (far-background (if (or window-system truecolor)  "#1c1f26" "#121212")) ;; panel-control
        (inactive-gray (if (or window-system truecolor) "#78909c" "#8a8a8a"))
@@ -61,7 +61,7 @@
        (comment "#b0bec5") ;; table-row
        (red "#f36c60") ;; tab-control-hover-tab-close-button
        (orange "#ff9800") ;; darker tab-control-dirty-tab-close-butto
-       (yellow "#fff59d") ;; tab-control-dirty-tab-close-button
+       (yellow "#ffff33") ;; tab-control-dirty-tab-close-button
        (green "#8bc34a") ;; complement tab-control-dirty-tab-close-button
        (aqua "#81d4fa") ;; lighter complement tab-control-dirty-tab-close-button
        (blue "#4dd0e1") ;; complement tab-control-dirty-tab-close-button
@@ -530,7 +530,7 @@
    `(py-builtins-face ((,class (:foreground ,"#ff7043" :weight normal))))
 
    ;; ein (emacs-ipython-notebook) specific colors
-   `(ein:cell-input-area ((,class (:background ,"#1e2930"))))
+   `(ein:cell-input-area ((,class (:background ,"#0e1920"))))
    `(ein:cell-input-prompt ((,class (:inherit org-block-begin-line))))
    `(ein:cell-output-prompt ((,class (:inherit org-block-end-line))))
 
